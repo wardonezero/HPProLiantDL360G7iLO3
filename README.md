@@ -5,7 +5,7 @@
 
 ## 2. Find the Server IP Address
 - If you have access to the router or switch, check the DHCP client list for the server's IP address.
-- If you do not have access, use Nmap (or Zenmap) to scan your local network:
+- If you do not have access, use Nmap (Zenmap) to scan your local network:
   - **Target:** `192.168.x.1/24` (replace `x` with your network's default, usually `1` or `0`)
   - **Profile:** Intense scan
   - **Command:**  
